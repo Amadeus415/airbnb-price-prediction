@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+env/
+
+# Dataset files
+datasets/
+*.csv
+*.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and compiled files
+*.pyc
+__pycache__/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode/
