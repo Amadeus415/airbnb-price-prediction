@@ -67,14 +67,15 @@ model.fit(X_train, y_train)
 st.title('🏡 Airbnb Price Estimator')
 
 with st.form("price_estimation_form"):
-    address = st.text_input("🏠 Home Address")
-    max_guests = st.number_input("👥 Maximum Guests", min_value=1, step=1)
-    beds = st.number_input("🛏️ Number of Beds", min_value=1, step=1)
-    baths = st.number_input("🛁 Number of Baths", min_value=1.0, step=0.5)
+    address = st.text_input("🏠 Home Address (Enter 'N/A' for general location estimate)")
     location = st.selectbox(
         "📍 Select Location",
         ["San Rafael", "Novato", "Fairfax", "Sausalito", "Mill Valley", "Kentfield", "Stinson Beach"]
     )
+    max_guests = st.number_input("👥 Maximum Guests", min_value=1, step=1)
+    beds = st.number_input("🛏️ Number of Beds", min_value=1, step=1)
+    baths = st.number_input("🛁 Number of Baths", min_value=1.0, step=0.5)
+
     
     # Submit button
     submit_button = st.form_submit_button(label="Estimate Price")
