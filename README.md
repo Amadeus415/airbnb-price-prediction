@@ -2,6 +2,21 @@
 
 This project contains an Airbnb price estimator for Marin County, California. It includes a data analysis notebook and a Streamlit web application for predicting Airbnb listing prices.
 
+
+## Application Preview
+
+Here are some screenshots of the Airbnb Price Estimator application:
+
+### Price Estimator
+![Price Estimator](estimator.png)
+
+### Airbnb Listings Map
+![Airbnb Listings Map](map.png)
+
+These images showcase the main features of our Streamlit application: the price estimation tool and the interactive map of Airbnb listings in Marin County.
+
+
+
 ## Files in the Codebase
 
 1. `airbnb_streamlit.py`: The main Streamlit application file that creates an interactive web interface for the Airbnb price estimator.
