@@ -27,6 +27,14 @@ These images showcase the main features of our Streamlit application: the price 
 
 4. `datasets/dataset_airbnb.csv`: The original dataset used for analysis in the Jupyter notebook.
 
+5. `images/`: A folder containing screenshots of the application for documentation purposes.
+
+6. `requirements.txt`: A file listing all the Python dependencies required to run the Streamlit application.
+
+7. `.gitignore`: A configuration file specifying which files and directories should be ignored by Git version control.
+
+
+
 ## Running the Streamlit Application
 
 To run the Streamlit application, follow these steps:
