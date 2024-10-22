@@ -8,10 +8,10 @@ This project contains an Airbnb price estimator for Marin County, California. It
 Here are some screenshots of the Airbnb Price Estimator application:
 
 ### Price Estimator
-![Price Estimator](estimator.png)
+![Price Estimator](./images/estimator.png)
 
 ### Airbnb Listings Map
-![Airbnb Listings Map](map.png)
+![Airbnb Listings Map](./images/map.png)
 
 These images showcase the main features of our Streamlit application: the price estimation tool and the interactive map of Airbnb listings in Marin County.
 
