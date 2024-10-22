@@ -36,7 +36,7 @@ for index, row in df.iterrows():
 
 # Display the map in Streamlit
 st.title('Airbnb Listings Map')
-st.write('This map shows the location of Airbnb listings in San Rafael')
+st.write('This map shows the location of Airbnb listings in Marin County, CA')
 st_folium(m, width=725)
 
 #-----------------------Price Prediction--------------------------------------------
