@@ -18,19 +18,21 @@ To run the Streamlit application, follow these steps:
 
 1. Ensure you have Python installed on your system.
 
-2. Install the required dependencies:
+2. Create and activate a Virtual Environment
+
+3. Install the required dependencies:
    ```
-   pip install streamlit pandas numpy folium streamlit-folium scikit-learn
+   pip install -r requirements.txt
    ```
 
-3. Navigate to the project directory in your terminal.
+4. Navigate to the project directory in your terminal.
 
-4. Run the Streamlit app with the following command:
+5. Run the Streamlit app with the following command:
    ```
    streamlit run airbnb_streamlit.py
    ```
 
-5. The application will start, and you should see a URL in your terminal. Open this URL in your web browser to interact with the Airbnb Price Estimator.
+6. The application will start, and you should see a URL in your terminal. Open this URL in your web browser to interact with the Airbnb Price Estimator. Note: you may need to reload the page for the estimator to load in.
 
 ## Models Used in airbnb_csv.ipynb
 
